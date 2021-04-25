@@ -2,8 +2,12 @@
 backend:
   name: git-gateway
   branch: master
+
+  identity_url: "https://serene-almeida-d05db6.netlify.app/.netlify/identity"
+  gateway_url: "https://serene-almeida-d05db6.netlify.app/.netlify/git"
   base_url: https://api.netlify.com
   auth_endpoint: auth
+
 media_folder: media
 # public_folder: /assets
 collections:
