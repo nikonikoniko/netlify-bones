@@ -1,6 +1,8 @@
 # admin/config.yml
 backend:
   name: git-gateway
+  base_url: https://niko.io/projects/netlify-bones
+  site_domain: niko.io/projects/netlify-bones
   branch: master
 media_folder: media
 # public_folder: /assets
